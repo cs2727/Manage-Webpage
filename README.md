@@ -1,2 +1,2 @@
 # Manage-Webpage
-Web-responsive Webpage Design
+Web-responsive Page
