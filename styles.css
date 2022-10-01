@@ -9,9 +9,6 @@ body {
   font-family: 'Heebo', sans-serif;
 }
 
-button:hover {
-}
-
 #first-outer-img {
   background-image: url('images/bg-tablet-pattern.svg');
   position: absolute;
@@ -84,7 +81,12 @@ button:hover {
   color: white;
   background-color: orangered;
   cursor: pointer;
-  transition: width 0.5s ease-in;
+  transition: all 0.5s ease-in;
+}
+
+#wrapper #firstSection #buttonContainer input:hover {
+  filter: brightness(80%);
+  width: 200px;
 }
 
 /* Second Section Stylings ------------------- */
@@ -118,6 +120,11 @@ button:hover {
   background-color: orangered;
   cursor: pointer;
   transition: width 0.5s ease-in;
+}
+
+#secondSection #infoContainer input:hover {
+  filter: brightness(80%);
+  width: 200px;
 }
 
 #secondSection #illustrationImageContainer img {
@@ -199,6 +206,11 @@ button:hover {
   transition: width 0.5s ease-in;
 }
 
+#fourthSection #reviewButtonContainer input:hover {
+  filter: brightness(80%);
+  width: 200px;
+}
+
 #fourthSection #reviewHeader {
   margin-bottom: 7em;
 }
@@ -235,13 +247,6 @@ button:hover {
 #fourthSection #reviewContainer div h6 {
   font-size: 1.2rem;
   margin-bottom: 0;
-}
-
-/* input (button) transition styling */
-
-input:hover {
-  filter: brightness(80%);
-  width: 200px;
 }
 
 /* Footer / Fifth Section ------------*/
